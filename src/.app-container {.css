@@ -1,0 +1,32 @@
+.app-container {
+  max-width: 700px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #ccc;
+}
+.project-list ul, .project-details ul {
+  list-style: none;
+  padding: 0;
+}
+.project-list li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #eee;
+}
+.project-list li:hover {
+  background: #e6f7ff;
+}
+.project-details {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+button {
+  margin-bottom: 1rem;
+}

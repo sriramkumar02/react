@@ -1,9 +1,10 @@
+import React from "react";
 
 function Header() {
   return (
-    <div className="app-container">
-  <h1 style={{ color: 'yellow' }}>Flipcart</h1>
-</div>
+    <header style={{ padding: "1rem", backgroundColor: "#1976d2", color: "white" }}>
+      <h1>📊 Project Management Dashboard</h1>
+    </header>
   );
 }
 

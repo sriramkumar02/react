@@ -12,7 +12,7 @@ function Login() {
   const navigate = useNavigate();
 
   const showAlert = () => {
-    if (username === 'sriramkumarr2005@gmail.com' && password === 'srk@2005') {
+    if (username === 'sriram' && password === '1234') {
       navigate('/Dashboard');
     } else {
       alert('Invalid password');
@@ -24,23 +24,15 @@ function Login() {
       <div className="login-box">
         <Header />
         <input
-          type="text"
-          placeholder="Email address or phone number"
-          className="input-field"
-          onChange={(e) => setUsername(e.target.value)}
+          type="text"placeholder="User Id or phone number"className="input-field"onChange={(e) => setUsername(e.target.value)}
         />
 
         <div className="password-container">
           <input
-            type={showPassword ? 'text' : 'password'}
-            placeholder="Password"
-            className="input-field"
-            onChange={(e) => setPassword(e.target.value)}
+            type={showPassword ? 'text' : 'password'}placeholder="Password"className="input-field"onChange={(e) => setPassword(e.target.value)}
           />
           <button
-            type="button"
-            className="show-hide-btn"
-            onClick={() => setShowPassword(!showPassword)}
+            type="button"className="show-hide-btn"onClick={() => setShowPassword(!showPassword)}
           >
             {showPassword ? 'Hide' : 'Show'}
           </button>
@@ -53,11 +45,12 @@ function Login() {
           Forgotten password?
         </a>
         <div className="divider">or</div>
-        <button className="create-account-btn">Create New Account</button>
+        <button className="create-account-btn">Create A New Account</button>
       </div>
       <Footer />
     </div>
   );
+  
 }
 
 export default Login;

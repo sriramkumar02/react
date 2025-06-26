@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <p className="footer-text"><b>Create a Page</b> connect with new peoples and enjoy this</p>
+    <p className="footer-text"><b>Shop Smart, Live Better.</b>India’s Favorite Shopping Destination.</p>
   );
 }
 
